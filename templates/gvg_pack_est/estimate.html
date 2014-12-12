@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+	<head>
+		<title>GvG Collection Tool</title>
+		<link rel="stylesheet" href="{% static "css/base.css" %}" />
+	</head>
+	<body>
+		<h1>Goblins Vs. Gnomes Expansion</h1>
+		<h3>How many packs does it take to get a 'complete' set?</h3>
+		<p> The average number of packs to complete your set was: {{ average }} </p>
+		<p> The maximum number of packs to complete your set was: {{ maximum }} </p>
+		<p> The minimum number of packs to complete your set was: {{ minimum }} </p>
+	</body>
+</html>

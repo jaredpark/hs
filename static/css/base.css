@@ -1,0 +1,21 @@
+img {
+	width: 50%;
+	height: auto;
+	margin-left: 25%;
+}
+
+body p {
+	text-align: center;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #666666;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #666666;
+}
+
